@@ -1309,6 +1309,7 @@ fn unescape_string_literal(mut s: &str) -> String {
                 b'r' => '\r',
                 b't' => '\t',
                 b'{' => '{',
+                b'\0' => '\0',
                 _ => unimplemented!("invalid escape"),
             };
 

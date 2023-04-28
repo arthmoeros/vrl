@@ -1,6 +1,7 @@
 # Changelog
 
 ## unreleased
+- added supported null `\0` escape character to new lexer
 - fixed a type definition bug for assignments where the right-hand side of the assignment expression resolved to the `never` type
 - removed the deprecated `FieldBuf` from `Field`
 - removed the lookup v1 code
